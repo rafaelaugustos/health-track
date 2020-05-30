@@ -9,8 +9,30 @@
 </head>
 <body>
   <div class="container-fluid home-bg">
-    <h1>Ola</h1>
-    <button class="btn btn-info">Ola</button>
+    <div class="row justify-content-lg-center align-items-center h-full home-rgba">
+      <div class="col-lg-3 col-sm-12">
+        <h2 class="home-title">Bem vindo ao Health Track</h2>
+
+        <form>
+          <div class="form-group">
+            <label class="text-white" for="email">E-mail</label>
+            <input class="form-control" id="email">
+          </div>
+
+          <div class="form-group">
+            <label class="text-white" for="senha">Senha</label>
+            <input type="password" class="form-control" id="senha">
+          </div>
+
+          <div class="form-group form-check"> 
+            <input type="checkbox" class="form-check-input" id="lembrar">
+            <label class="form-check-label text-white" for="lembrar">Lembrar</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-round">Entrar</button>
+        </form>
+      </div>
+    </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

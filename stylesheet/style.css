@@ -8,3 +8,27 @@ html, body{
   background-size: cover;
   height: 100%;
 }
+
+.home-title{
+  font-size: 1.4em;
+  color: #fff;
+}
+
+.home-rgba{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* CLASSES AUX */
+.btn-round{
+  border-radius: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.text-white{
+  color: #fff;
+}
+
+.h-full{
+  height: 100%;
+}
