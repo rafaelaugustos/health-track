@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Track - Cadastro</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./stylesheet/style.css" />
+</head>
+<body>
+  <div class="container-fluid home-bg">
+    <div class="row justify-content-lg-center align-items-center h-full home-rgba">
+      <div class="col-lg-3 col-sm-12">
+        <h2 class="home-title">Faça seu cadastro</h2>
+        <p class="subtitle text-white">Preencha as informações abaixo para se cadastrar</p>
+
+        <form>
+          <div class="form-group">
+            <label class="text-white" for="nome">Nome</label>
+            <input class="form-control input-ghost" id="nome">
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <label class="text-white" for="nascimento">Data de nascimento</label>
+                <input class="form-control input-ghost" id="nascimento">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="form-group">
+                <label class="text-white" for="altura">Altura</label>
+                <input class="form-control input-ghost" id="altura">
+              </div>
+            </div>
+          </div>
+
+          <label class="text-white">Genêro</label>
+          <div class="form-group form-check"> 
+            <input type="radio" class="form-check-input" id="homem" name="genero">
+            <label class="form-check-label text-white" for="homem">Homem</label>
+          </div>
+
+          <div class="form-group form-check"> 
+            <input type="radio" class="form-check-input" id="mulher" name="genero">
+            <label class="form-check-label text-white" for="mulher">Mulher</label>
+          </div>
+
+          <div class="form-group form-check"> 
+            <input type="radio" class="form-check-input" id="binario" name="genero">
+            <label class="form-check-label text-white" for="binario">Não binário</label>
+          </div>
+
+          <div class="form-group">
+            <label class="text-white" for="email">E-mail</label>
+            <input class="form-control input-ghost" id="email">
+          </div>
+          
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <label class="text-white" for="senha">Senha</label>
+                <input type="password" class="form-control input-ghost" id="senha">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="form-group">
+                <label class="text-white" for="senha">Confirmar senha</label>
+                <input type="password" class="form-control input-ghost" id="senha">
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-link btn-round">Voltar</button>
+          <button type="submit" class="btn btn-primary btn-round">Cadastrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
